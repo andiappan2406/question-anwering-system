@@ -1,5 +1,5 @@
 # If confidence is below this, we refuse instead of guessing.
-CONFIDENCE_THRESHOLD = 0.15
+CONFIDENCE_THRESHOLD = 0.4
 
 
 def apply_grounding(answer, sources, confidence):

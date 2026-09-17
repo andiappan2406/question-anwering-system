@@ -5,12 +5,24 @@ from app.sql_engine import answer_personal_query
 from app.cache import SemanticCache
 from app.router import classify_intent
 from app.grounding import apply_grounding
+from app.llm_engine import rephrase_answer
+
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="AMYPO Local Database Question-Answering System")
 
+# Allow CORS for local frontend development
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # In production, specify ["http://localhost:3000"] etc.
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 # Loaded once, at startup
-retriever = DocumentRetriever("data/documents.json")
-cache = SemanticCache(retriever.vectorizer, similarity_threshold=0.85)
+retriever = DocumentRetriever() # We don't pass the json path here as it uses defaults
+cache = SemanticCache(retriever.model, similarity_threshold=0.85)
 
 
 @app.get("/api/v1/health")
@@ -28,6 +40,8 @@ def ask(request: AskRequest):
         if not request.user_id:
             return apply_grounding(None, [], 0.0)
         answer, source, confidence = answer_personal_query(question, request.user_id)
+        if request.use_llm and answer:
+            answer = rephrase_answer(question, answer)
         sources = [Source(**source)] if source else []
         return apply_grounding(answer, sources, confidence)
 
@@ -46,14 +60,19 @@ def ask(request: AskRequest):
         return apply_grounding(None, [], 0.0)
 
     top = results[0]
-    answer = f"According to {top['source']}: {top['snippet']}"
-    sources = [Source(record_id=top["record_id"], snippet=top["snippet"])]
+    raw_snippet = top['snippet']
+    if request.use_llm:
+        is_complex = (intent == "complex")
+        answer = rephrase_answer(question, raw_snippet, is_complex=is_complex)
+    else:
+        answer = f"According to {top['source']}: {raw_snippet}"
+    sources = [Source(record_id=top["record_id"], snippet=raw_snippet)]
     confidence = min(top["score"] * 1.5, 0.99)
 
     result = apply_grounding(answer, sources, confidence)
 
     # Only cache confidently-grounded common answers
-    if result["confidence"] >= 0.15:
+    if result["confidence"] >= 0.4:
         cache.store(question, result["answer"], result["sources"], result["confidence"])
 
     return result

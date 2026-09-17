@@ -2,3 +2,8 @@ fastapi==0.115.0
 uvicorn==0.30.6
 scikit-learn==1.5.2
 pydantic==2.9.2
+python-dotenv>=1.0.0
+requests>=2.31.0
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+spacy>=3.7.2

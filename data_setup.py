@@ -31,9 +31,26 @@ sample_students = [
     ("S103", "Karthik Raja", 91.0, 9.1, 5),
 ]
 c.executemany("INSERT INTO students VALUES (?,?,?,?,?)", sample_students)
+
+# Create Staff table
+c.execute("DROP TABLE IF EXISTS staff")
+c.execute("""
+CREATE TABLE staff (
+    staff_id TEXT PRIMARY KEY,
+    name TEXT,
+    department TEXT,
+    role TEXT
+)
+""")
+sample_staff = [
+    ("T101", "Dr. Rajesh", "Computer Science", "Professor"),
+    ("T102", "Prof. Anitha", "Computer Science", "Assistant Professor"),
+]
+c.executemany("INSERT INTO staff VALUES (?,?,?,?)", sample_staff)
+
 conn.commit()
 conn.close()
-print("[OK] Created data/students.db with sample records")
+print("[OK] Created data/students.db with sample student and staff records")
 
 # ---------- 2. Unstructured data (documents) ----------
 documents = [

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "policy_attendance_01",
+    "source": "Attendance Policy",
+    "text": "Students must maintain a minimum of 75 percent attendance in each subject to be eligible to write the semester examination. Students below 75 percent attendance will be debarred from the exam unless a valid medical certificate is submitted within 7 days."
+  },
+  {
+    "id": "policy_exam_retake_01",
+    "source": "Exam Retake Policy",
+    "text": "Students who fail a semester exam are eligible for one retake or arrear attempt in the subsequent semester. A retake fee of Rs. 500 per subject applies. Students cannot retake a subject more than twice."
+  },
+  {
+    "id": "faq_library_01",
+    "source": "Library FAQ",
+    "text": "The AMYPO library is open from 8:30 AM to 7:00 PM on weekdays and 9:00 AM to 1:00 PM on Saturdays. Students can borrow up to 3 books for 14 days using their student ID card."
+  },
+  {
+    "id": "course_dbms_01",
+    "source": "DBMS Course Content - Module 3",
+    "text": "Module 3 of the Database Management Systems course covers Normalization, including First Normal Form, Second Normal Form, and Third Normal Form, along with functional dependencies and how they help eliminate data redundancy."
+  },
+  {
+    "id": "faq_placement_01",
+    "source": "Placement FAQ",
+    "text": "Students become eligible for campus placements starting from the 6th semester, provided they have no standing arrears and maintain a minimum CGPA of 6.5."
+  }
+]

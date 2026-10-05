@@ -2,26 +2,171 @@
   {
     "id": "policy_attendance_01",
     "source": "Attendance Policy",
-    "text": "Students must maintain a minimum of 75 percent attendance in each subject to be eligible to write the semester examination. Students below 75 percent attendance will be debarred from the exam unless a valid medical certificate is submitted within 7 days."
+    "text": "AMYPO requires students to maintain a minimum of 75% attendance in each registered theory and laboratory course to be eligible to appear for the semester end examinations. Students falling below 75% will be debarred from writing exams unless an approved medical condonation certificate is submitted within 7 days."
+  },
+  {
+    "id": "policy_attendance_condonation_02",
+    "source": "Attendance Condonation Policy",
+    "text": "Attendance condonation is permissible for students possessing attendance between 65% and 74.9% on valid medical grounds, official participation in sports, or representing the college in state/national events. Applications must be countersigned by the Head of Department and approved by the Dean of Academics with the prescribed condonation fee."
+  },
+  {
+    "id": "policy_grading_system_01",
+    "source": "Academic Grading & CGPA Policy",
+    "text": "Academic evaluation follows a 10-point Letter Grade scale: O (Outstanding, 90-100 marks, Grade Point 10.0), A+ (Excellent, 80-89 marks, Grade Point 9.0), A (Very Good, 70-79 marks, Grade Point 8.0), B+ (Good, 60-69 marks, Grade Point 7.0), B (Above Average, 55-59 marks, Grade Point 6.0), C (Pass, 50-54 marks, Grade Point 5.0), and F (Fail/Arrear, below 50 marks, Grade Point 0.0). Continuous Internal Assessment contributes 40% and End Semester Exam contributes 60%."
   },
   {
     "id": "policy_exam_retake_01",
-    "source": "Exam Retake Policy",
-    "text": "Students who fail a semester exam are eligible for one retake or arrear attempt in the subsequent semester. A retake fee of Rs. 500 per subject applies. Students cannot retake a subject more than twice."
+    "source": "Exam Retake & Arrear Policy",
+    "text": "Students who secure an 'F' grade or are absent for an end-semester exam may clear the subject in subsequent supplementary or regular semester exam cycles. The arrear examination fee is Rs. 500 per theory subject and Rs. 750 per laboratory subject. Revaluation can be requested within 10 days of results declaration for a fee of Rs. 600 per paper."
+  },
+  {
+    "id": "policy_academic_calendar_01",
+    "source": "Academic Calendar & Working Hours",
+    "text": "AMYPO operates on a semester schedule: Odd semesters run from July to November, and Even semesters run from January to May. Regular class hours are Monday to Friday, from 8:45 AM to 4:30 PM. Each semester includes two internal continuous assessment tests (CAT-1 and CAT-2) followed by model practical examinations."
+  },
+  {
+    "id": "faq_fee_structure_01",
+    "source": "Fee Policy & Payment Details",
+    "text": "Semester tuition fees and examination fees must be remitted prior to the start of each semester. A grace period is available until the 10th day of the term. Payments can be made online through the AMYPO Student Portal payment gateway (Net Banking, UPI, Cards) or physically at the Accounts Counter in the Administration Block (open 9:30 AM to 4:00 PM). Late payments incur a fine of Rs. 100 per day."
+  },
+  {
+    "id": "faq_scholarship_01",
+    "source": "Scholarships & Financial Assistance",
+    "text": "AMYPO offers Merit Scholarships offering a 50% tuition fee waiver to undergraduate students who achieve a CGPA of 9.0 and above with no arrears. Sports Scholarships ranging from 25% to 75% fee waivers are awarded to athletes representing the college at university, state, or national levels. Economically backward students can apply for Dean's Financial Aid through the Student Welfare Office."
   },
   {
     "id": "faq_library_01",
-    "source": "Library FAQ",
-    "text": "The AMYPO library is open from 8:30 AM to 7:00 PM on weekdays and 9:00 AM to 1:00 PM on Saturdays. Students can borrow up to 3 books for 14 days using their student ID card."
+    "source": "Central Library Hours & Borrowing Rules",
+    "text": "The AMYPO Central Library is open Monday through Friday from 8:30 AM to 7:00 PM, and on Saturdays from 9:00 AM to 1:00 PM. During semester examinations, the library provides extended study hours until 10:00 PM. Undergraduate students can borrow up to 3 books for a duration of 14 days, with one renewal permitted. Overdue books incur a late fine of Rs. 5 per day."
+  },
+  {
+    "id": "faq_digital_library_02",
+    "source": "Digital Library & Research Resources",
+    "text": "The Digital Library section is situated on the 2nd floor of the Central Library, offering 60 high-speed computer terminals. Students have free on-campus access to IEEE Xplore, ScienceDirect, Springer, DELNET, and NPTEL local video servers. Remote login credentials are provided to all students during orientation."
+  },
+  {
+    "id": "faq_hostel_accommodation_01",
+    "source": "Hostel Facilities & Curfew Rules",
+    "text": "AMYPO provides secure on-campus residential hostels: Cauvery Block and Krishna Block for boys, and Ganga Block and Yamuna Block for girls. Hostels are equipped with Wi-Fi, study halls, solar hot water, laundry rooms, and dining halls. Curfew (in-time) is strictly 8:30 PM on weekdays and 9:00 PM on weekends with biometric check-in. The hostel fee is Rs. 45,000 per semester inclusive of mess charges."
+  },
+  {
+    "id": "faq_canteen_dining_01",
+    "source": "Canteen & Dining Facilities",
+    "text": "The central college cafeteria operates daily from 7:30 AM to 8:30 PM serving breakfast, lunch, snacks, and dinner. It features separate vegetarian and multi-cuisine counters offering hygienic, subsidized meals. Additionally, an on-campus Nescafe kiosk near Tech Block-1 provides beverages and quick bites from 8:00 AM to 6:00 PM."
+  },
+  {
+    "id": "faq_sports_gym_01",
+    "source": "Sports Complex & Gym Timings",
+    "text": "The AMYPO Sports Complex includes a modern gymnasium open in two sessions: Morning from 6:00 AM to 8:30 AM, and Evening from 4:30 PM to 7:30 PM, supervised by certified physical directors. Outdoor facilities feature a 400m synthetic athletic track, football ground, cricket nets, volleyball courts, and two floodlit outdoor basketball courts. Indoor facilities include 4 wooden badminton courts and table tennis."
+  },
+  {
+    "id": "faq_health_center_01",
+    "source": "Campus Health Center & Medical Clinic",
+    "text": "The Campus Health Center is located on the ground floor of the Student Amenities Block (Room G-04). A full-time registered nurse is stationed 24/7, and a visiting physician is available Monday through Saturday from 9:00 AM to 5:00 PM. Consultation and basic first-aid medicines are free for students. In medical emergencies, the college ambulance can be summoned via internal telephone extension 1100."
+  },
+  {
+    "id": "faq_transport_bus_01",
+    "source": "Campus Bus Transportation",
+    "text": "AMYPO runs a dedicated fleet of 18 GPS-enabled college buses servicing major transit hubs and neighborhoods across the metropolitan area. Buses arrive at the campus by 8:15 AM and depart at 4:45 PM. A late evening bus departs at 6:00 PM for students using lab and library facilities. Annual bus passes are issued by the Transport Desk located near Security Gate 1."
+  },
+  {
+    "id": "faq_placement_01",
+    "source": "Training & Placement Cell Policy",
+    "text": "The AMYPO Training and Placement Cell coordinates campus recruitments beginning in the 6th semester. To be eligible for campus drives, students must maintain a minimum CGPA of 6.5 with zero active standing arrears. Comprehensive placement training covers Data Structures, System Design, Quantitative Aptitude, Communication Skills, and Mock Technical Interviews."
+  },
+  {
+    "id": "faq_placement_recruiters_02",
+    "source": "Placement Statistics & Top Recruiters",
+    "text": "Over 150 leading technology and core engineering enterprises recruit from AMYPO annually, including Amazon, Microsoft, Infosys, TCS, Wipro, Zoho, Cognizant, L&T, and Bosch. The highest domestic salary package achieved was 24 LPA, with an overall campus average package of 6.8 LPA. Over 92% of eligible candidates received placement offers in the previous academic year."
+  },
+  {
+    "id": "faq_internship_policy_01",
+    "source": "Internship & Capstone Project Guidelines",
+    "text": "Undergraduate engineering students must complete a mandatory 6 to 8 week industrial internship during summer vacation following the 6th semester. The final year Capstone Project is executed in two stages: Project Phase-1 in the 7th semester (literature review and prototype design) and Project Phase-2 in the 8th semester (implementation, testing, and conference publication)."
+  },
+  {
+    "id": "staff_cse_department_01",
+    "source": "Computer Science & Engineering (CSE) Department",
+    "text": "The Head of Department (HoD) of Computer Science and Engineering is Dr. Rajesh Kumar, Professor specializing in Distributed Systems and Cloud Computing (Office: Tech Block-1, Room 301). The department houses modern laboratories including the High-Performance AI Lab, Database Systems Lab, and Cloud Infrastructure Center. Year Coordinator is Prof. Anitha Raman (Tech Block-1, Room 305)."
+  },
+  {
+    "id": "staff_ece_department_01",
+    "source": "Electronics & Communication Engineering (ECE) Department",
+    "text": "The Head of Department (HoD) of Electronics and Communication Engineering is Dr. Meenakshi Sundaram, Professor specializing in VLSI Architectures and Embedded Systems (Office: VLSI Block, Room 201). The department features state-of-the-art IoT Innovation Labs, Microwave Antenna Testing Chambers, and Digital Signal Processing centers."
+  },
+  {
+    "id": "staff_mech_department_01",
+    "source": "Mechanical Engineering Department",
+    "text": "The Head of Department (HoD) of Mechanical Engineering is Prof. Suresh Babu, Associate Professor specializing in Robotics, CAD/CAM, and Industrial Automation (Office: Workshop Block, Room 101). Facilities include CNC Machining Centers, 3D Printing Prototyping Labs, and Fluid Mechanics & Thermal research test rigs."
+  },
+  {
+    "id": "staff_it_aids_department_01",
+    "source": "IT and AI & Data Science Departments",
+    "text": "The Information Technology department is headed by Dr. Harish Natarajan (Associate Professor & HoD IT, Tech Block-2, Room 204). The Artificial Intelligence & Data Science department faculty coordinator is Prof. Pooja Nair (Tech Block-2, Room 310), leading research in Deep Learning, Computer Vision, and Natural Language Processing."
+  },
+  {
+    "id": "admin_leadership_01",
+    "source": "College Administration & Leadership",
+    "text": "The Principal of the college is Dr. K. Radhakrishnan, who serves as the Principal and Director of AMYPO College (Office: Administration Block, Room 101). The Dean of Academics is Dr. Vandana Hegde (Admin Block, Room 102), who oversees curriculum, student affairs, academic policies, and university accreditation. The Controller of Examinations (CoE) is Dr. S. Swaminathan (Examination Cell, Admin Block, Room 204). College administrative and dean offices operate Monday to Friday from 9:00 AM to 5:00 PM."
+  },
+  {
+    "id": "policy_antiragging_01",
+    "source": "Anti-Ragging & Student Safety Policy",
+    "text": "AMYPO maintains a zero-tolerance policy against ragging, harassment, and discrimination in strict accordance with Supreme Court and UGC directives. The 24/7 Anti-Ragging Toll-Free Helpline is 1800-180-5522. The Campus Flying Squad can be reached at 98765-43210. The Women's Internal Complaints Committee (ICC) is chaired by Dr. Vandana Hegde."
+  },
+  {
+    "id": "faq_student_clubs_01",
+    "source": "Student Clubs & Campus Fests",
+    "text": "AMYPO features active student clubs: BitByBit (Coding & Hackathons), GDSC AMYPO (Google Developer Student Club), MechaBots (Robotics), Symphony (Music), Mudras (Dance), and Aperture (Photography). The college hosts two premier annual events: 'TechNova', the national-level inter-collegiate technical symposium in March, and 'Aura', the 3-day annual cultural fest in October."
   },
   {
     "id": "course_dbms_01",
     "source": "DBMS Course Content - Module 3",
-    "text": "Module 3 of the Database Management Systems course covers Normalization, including First Normal Form, Second Normal Form, and Third Normal Form, along with functional dependencies and how they help eliminate data redundancy."
+    "text": "Module 3 of the Database Management Systems course (CS501) covers Relational Database Design and Normalization, including First Normal Form (1NF), Second Normal Form (2NF), Third Normal Form (3NF), and Boyce-Codd Normal Form (BCNF), along with functional dependencies and multi-valued dependencies to eliminate data redundancy and insertion/deletion anomalies."
   },
   {
-    "id": "faq_placement_01",
-    "source": "Placement FAQ",
-    "text": "Students become eligible for campus placements starting from the 6th semester, provided they have no standing arrears and maintain a minimum CGPA of 6.5."
+    "id": "course_dbms_02",
+    "source": "DBMS Course Content - Module 4 & 5",
+    "text": "Module 4 of Database Management Systems covers Transaction Processing and Concurrency Control, emphasizing ACID properties (Atomicity, Consistency, Isolation, Durability), Serializability, Two-Phase Locking (2PL), and Deadlock handling. Module 5 introduces Storage structures, B+ Tree indexing, Query Execution Plans, and NoSQL document stores."
+  },
+  {
+    "id": "faq_college_overview_01",
+    "source": "About AMYPO Institute of Technology & Science",
+    "text": "AMYPO Institute of Technology & Science is an autonomous, premier engineering college affiliated with the State Technological University and accredited with NAAC 'A++' Grade. AMYPO offers B.Tech and M.Tech degrees in Computer Science, AI & Data Science, Information Technology, Electronics & Communication, and Mechanical Engineering across a lush 60-acre Wi-Fi enabled campus."
+  },
+  {
+    "id": "exam_schedule_semester_end_nov2026",
+    "source": "End-Semester Examination Timetable (Nov/Dec 2026)",
+    "text": "The Office of the Controller of Examinations has published the official Odd Semester End Examination Timetable (November/December 2026). Key examination dates: The mandatory language paper HS101 Tamil Heritage & Scientific Tamil (Heritage of Tamils / Tamils and Technology) is scheduled on November 24, 2026 (Tuesday) in the forenoon session from 9:30 AM to 12:30 PM in Main Examination Block Rooms A-201 through A-208. CS501 Database Management Systems is on November 27, 2026 (9:30 AM - 12:30 PM). CS502 Operating Systems is on November 30, 2026 (9:30 AM - 12:30 PM). CS503 Theory of Computation / Algorithms is on December 3, 2026 (9:30 AM - 12:30 PM). CS504 Computer Networks is on December 7, 2026 (9:30 AM - 12:30 PM). Practical semester exams take place from November 10 to November 18, 2026. Hall tickets will be issued via the portal from November 15, 2026."
+  },
+  {
+    "id": "exam_tamil_course_schedule_01",
+    "source": "Tamil Language Course (HS101) & Exam Schedule",
+    "text": "HS101 Tamil Heritage and Scientific Tamil (Heritage of Tamils / Tamils and Technology) is a compulsory curriculum course for undergraduate engineering students. The end-semester written examination date is Tuesday, November 24, 2026, conducted from 9:30 AM to 12:30 PM. The examination syllabus encompasses Sangam classical literature, Tamil rock architecture, historical metallurgy, irrigation engineering, and contemporary technical vocabulary in scientific Tamil. The course coordinator and Controller of Examinations is Dr. S. Swaminathan (Admin Block, Room 204)."
+  },
+  {
+    "id": "exam_cat_internal_schedule_01",
+    "source": "Continuous Assessment Tests (CAT-1 & CAT-2) Schedule",
+    "text": "Continuous Assessment Tests (CAT) for the current academic session are organized by the Dean of Academics: CAT-1 internal exams are conducted from September 15 to September 20, 2026. CAT-2 internal exams are conducted from October 20 to October 25, 2026. Model practical laboratory exams are scheduled from November 3 to November 8, 2026. Internal assessment marks contribute 40% toward final subject grading."
+  },
+  {
+    "id": "exam_hall_ticket_admit_card_01",
+    "source": "Exam Hall Ticket & Rules of Conduct",
+    "text": "Hall tickets (Admit Cards) for semester examinations are downloadable through the AMYPO Student Portal 10 days before the exam session (beginning November 15, 2026). Students must possess a minimum of 75% attendance in theory and lab courses to be granted exam eligibility and download hall tickets. Students must report to their assigned exam hall by 9:00 AM with their physical College ID card and signed Hall Ticket. Electronic gadgets, smart watches, and programmable calculators are strictly prohibited."
+  },
+  {
+    "id": "policy_placement_role_matching_01",
+    "source": "Skill-to-Role Matching & Anti-Random Selection Policy",
+    "text": "To prevent random selection and eliminate wasted recruitment chances, AMYPO Training & Placement Cell implements an automated Skill-to-Role Matching Engine. Instead of random batch allocations, candidates are mapped against company opening requirements based on primary skills, secondary skills, verified projects, and academic eligibility (minimum CGPA and 75% attendance). This ensures high selection probability and targeted interview shortlists for corporate recruitment drives."
+  },
+  {
+    "id": "policy_placement_company_openings_02",
+    "source": "Campus Placement Corporate Openings & Requirements",
+    "text": "AMYPO hosts campus recruitment drives from top companies including Google (SDE Backend - Distributed Systems, Go, Python, Algorithms, 24 LPA), Microsoft (Data Scientist / Applied AI - PyTorch, ML, NLP, 21 LPA), Amazon (Cloud Solutions Architect - AWS, Docker, Kubernetes, CI/CD, 18 LPA), Zoho Corporation (Full Stack Web Developer - React, TypeScript, FastAPI, PostgreSQL, 10 LPA), Bosch Global Software (Embedded Systems & IoT Firmware - Embedded C, RTOS, CAN Bus, 12 LPA), Larsen & Toubro (Robotics & Automation - PLC, CAD/CAM, MATLAB, 9.5 LPA), TCS Digital (Cybersecurity & Systems - Java, Python, Cryptography, 7.5 LPA), and Razorpay (Frontend Platform - React, TypeScript, Next.js, 15 LPA)."
+  },
+  {
+    "id": "policy_placement_student_readiness_03",
+    "source": "Student Placement Preparation & Skill Gap Analysis",
+    "text": "Students can review their personal skill match percentage and gap analysis for every active company opening on the AMYPO Portal. When a student's skills align closely with a role's required tech stack, their interview clearance rate exceeds 85%. Students are advised to address missing skills identified by the matcher prior to company technical tests to maximize selection odds without burning application limits."
   }
 ]

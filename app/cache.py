@@ -20,17 +20,19 @@ class SemanticCache:
             return 0.0
         return dot / (norm_v1 * norm_v2)
 
-    def lookup(self, question):
+    def lookup(self, question, use_llm=False):
         if not self.entries or not self.model:
             return None
         query_vec = self.model.encode([question], convert_to_numpy=True)[0]
         for entry in self.entries:
+            if entry.get("use_llm", False) != use_llm:
+                continue
             sim = self._cosine_similarity(query_vec, entry["vector"])
             if sim >= self.threshold:
                 return entry
         return None
 
-    def store(self, question, answer, sources, confidence):
+    def store(self, question, answer, sources, confidence, use_llm=False):
         if not self.model:
             return
         vector = self.model.encode([question], convert_to_numpy=True)[0]
@@ -40,4 +42,5 @@ class SemanticCache:
             "answer": answer,
             "sources": sources,
             "confidence": confidence,
+            "use_llm": use_llm,
         })
